@@ -31,7 +31,9 @@ The project follows a star schema design where:
 
 
 dim_products.product_key → fact_sales.product_key
+
 dim_customers.customer_key → fact_sales.customer_key
+
 Each customer and product can have multiple sales records.
 
 
