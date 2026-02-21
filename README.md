@@ -28,8 +28,8 @@ The project follows a star schema design where:
 - One-to-many relationships connect dimension tables to the fact table.
 
 
-<<img width="933" height="376" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/31a66e29-26fd-4b78-aaa4-9112fdf90f19" />
->
+<img width="933" height="376" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/31a66e29-26fd-4b78-aaa4-9112fdf90f19" />
+
 
 
 Each customer and product can have multiple sales records.
