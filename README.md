@@ -5,7 +5,7 @@
 This project analyzes motorcycle and motorcycle accessories sales data using SQL (SSMS) . 
 The objective is to extract meaningful business insights related to customers, products, and sales performance.
 
-The analysis includes 13 business-focused SQL queries covering revenue trends, top-performing products, customer behavior, sales timeline ,year trends , and category performance.
+The analysis includes business-focused SQL queries covering revenue trends, top-performing products, customer behavior, sales timeline ,year trends , and category performance.
 
 
 ##  Business Objectives
@@ -30,7 +30,8 @@ The project follows a star schema design where:
 <img width="933" height="376" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/31a66e29-26fd-4b78-aaa4-9112fdf90f19" />
 
 
-
+dim_products.product_key → fact_sales.product_key
+dim_customers.customer_key → fact_sales.customer_key
 Each customer and product can have multiple sales records.
 
 
@@ -118,7 +119,7 @@ Size of New , Regular and VIP customer segments.
 
 1. Import the SQL file into MySQL.
 2. Execute database initialization script.
-3. Run the queries inside the /queries folder.
+3. Run the queries inside the /scripts folder.
 
 ---
 
@@ -134,6 +135,7 @@ While the dataset framework and problem statements were inspired by the course m
 Economics Honours Student | Aspiring Data Analyst  
 
 📧 Email: pratham15ggupta@gmail.com
+
 🔗 LinkedIn:www.linkedin.com/in/pratham-gupta-860749273 
 
 ---
